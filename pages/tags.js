@@ -1,6 +1,6 @@
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
-import Tag from '@/components/Tag'
+// import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllTags } from '@/lib/tags'
 import kebabCase from '@/lib/utils/kebabCase'
@@ -27,7 +27,7 @@ export default function Tags({ tags }) {
           {sortedTags.map((t) => {
             return (
               <div key={t} className="mt-2 mb-2 mr-5">
-                <Tag text={t} />
+                {/* <Tag text={t} /> */}
                 <Link
                   href={`/tags/${kebabCase(t)}`}
                   className="-ml-2 text-sm font-semibold text-gray-600 uppercase dark:text-gray-300"
