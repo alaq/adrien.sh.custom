@@ -19,9 +19,9 @@ const LayoutWrapper = ({ children }) => {
                   <Logo />
                 </div> */}
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="hidden h-6 text-2xl font-semibold sm:block">
-                    {siteMetadata.headerTitle}
-                  </div>
+                  // When there is a logo again, swap the classes below to hide the title on mobile
+                  // <div className="hidden h-6 text-2xl font-semibold sm:block">
+                  <div className="h-6 text-2xl font-semibold block">{siteMetadata.headerTitle}</div>
                 ) : (
                   siteMetadata.headerTitle
                 )}
