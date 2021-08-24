@@ -18,12 +18,38 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
+        <div className="pt-6 pb-8 space-y-2 md:space-y-5 prose dark:prose-dark">
+          <p>
+            Hello there,{' '}
+            <span role="img" aria-label="waving hand">
+              👋
+            </span>
+          </p>
+          <p>
+            I'm{' '}
+            <a href="https://twitter.com/adrien" target="_blank" rel="noreferrer">
+              @adrien
+            </a>
+            . I'm a full-stack TypeScript developer.
+          </p>
+          <p>
+            I am part of the{' '}
+            <a
+              href="https://twitter.com/search?q=%40adrien%20%23buildinpublic&src=typeahead_click&f=live"
+              target="_blank"
+              rel="noreferrer"
+            >
+              #buildinpublic
+            </a>{' '}
+            community 📢. I am interested in micro-SaaS as well as personal knowledge
+            management/tools for thought. I write about what I am learning here.
+          </p>
+          <p>
+            During the day I build trading platforms on the Bloomberg Terminal{' '}
+            <span role="img" aria-label="man using computer">
+              👨‍💻
+            </span>
+            .
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
