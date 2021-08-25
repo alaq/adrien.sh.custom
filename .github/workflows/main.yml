@@ -1,0 +1,56 @@
+name: 'Roam Research backup'
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 */4 * * *'
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    name: Backup
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Run Backup
+        run: |
+          cd /tmp
+          git clone -q https://github.com/everruler12/roam2github.git roam2github
+          cd $_
+          npm i
+          npm run backup -s
+        env:
+          ROAM_EMAIL: ${{ secrets.ROAMRESEARCH_USER }}
+          ROAM_PASSWORD: ${{ secrets.ROAMRESEARCH_PASSWORD }}
+          ROAM_GRAPH: ${{ secrets.ROAMRESEARCH_DATABASE }}
+
+      - name: Setup dependencies
+        run: |
+          pip install git+https://github.com/alaq/roam-to-garden.git
+
+      - name: Generate notes
+        run: roam-to-git --skip-fetch --skip-git .
+        env:
+          ROAMRESEARCH_USER: ${{ secrets.ROAMRESEARCH_USER }}
+          ROAMRESEARCH_PASSWORD: ${{ secrets.ROAMRESEARCH_PASSWORD }}
+          ROAMRESEARCH_DATABASE: ${{ secrets.ROAMRESEARCH_DATABASE }}
+
+      - name: Commit Changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automated snapshot
+          push_options: '--force'
+          commit_author: Githb Actions <actions@github.com> # defaults to author of the commit that triggered the run
