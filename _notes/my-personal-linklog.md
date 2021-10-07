@@ -11,6 +11,10 @@ This is a linked list of resources I have found helpful or lastingly interesting
 
 - [Lifehacker](https://lifehacker.com)
 
+## The News
+
+- [The Submarine](http://www.paulgraham.com/submarine.html) -- Paul Graham
+
 ## Philosophy
 
 - [Optimistic Nihilism](https://tinyclouds.org/optimistic_nihilism/) -- Ryan Dahl
