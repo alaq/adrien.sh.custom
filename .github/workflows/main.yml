@@ -53,5 +53,5 @@ jobs:
         with:
           commit_message: Automated snapshot
           push_options: '--force'
-          commit_author: Githb Actions <actions@github.com> # defaults to author of the commit that triggered the run
-          file_pattern: _notes/*.md
+          commit_author: Github Actions <actions@github.com> # defaults to author of the commit that triggered the run
+          file_pattern: data/articles/*.md
