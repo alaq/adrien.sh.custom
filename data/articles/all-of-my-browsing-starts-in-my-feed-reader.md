@@ -4,7 +4,7 @@ date: 2021-10-28T12:48:14Z
 draft: true
 ---
 
-RSS lets you subscribe to a source of information in a standardized way.
+RSS lets you subscribe to a source of information in a standardized way. A feed reader is a great way to consume information. Let me explain why.
 
 # Why?
 
@@ -15,6 +15,8 @@ Have you ever been procrastinating and went on a rotation such as Twitter, then 
 After moving a lot of sources the feed reader, I found myself not checking a rotation of sources, but I single one. That's progress. To fight this I wrote a small browser extension 
 
 ![](https://addons.cdn.mozilla.net/user-media/previews/full/253/253094.png?modified=1614909701)
+
+Another tip here is to sort the results from older to newer. That way you're starting with BREAKING NEWS. Maybe it's articles from a couple of days ago, a lot less stressful.
 
 ## Never miss a thing (on your own schedule)
 
@@ -115,6 +117,8 @@ That being said, there is one I will always keep. I read every single headline t
 Then it's useful for other things. For instance, I don't follow Ben Thompson's Stratechery because I know that without fail it will be posted to Hacker News.
 
 Use filters
+
+Don't check it too often. 
 
 A few words on why Feedbin
 
