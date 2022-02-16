@@ -45,7 +45,11 @@ I also never read an article right away. It means that I would have to leave the
 Therefore I use Instapaper for proper reading.
 # What sources of information do I consume via RSS?
 
+## Good ol' RSS
+
 ## Twitter
+
+Some web feed readers will let you sign in with your Twitter account and add people on their platform. That way you can even read tweets from private accounts.
 
 ### Create a private Twitter list to follow accounts
 
