@@ -141,7 +141,9 @@ Then it's useful for other things. For instance, I don't follow Ben Thompson's S
 
 ## Use filters
 
-## Don't check it too often. 
+## Don't check it too often.
+
+If it’s too much work, start with an alternative, <https://serializer.io/> is a good way to start 
 # A few words on why Feedbin
 
 I could be spending, no money and get most of the same features. Here is why I spend $5 on a RSS feed reader
@@ -153,3 +155,7 @@ I could be spending, no money and get most of the same features. Here is why I s
 
 
 One very small feature request: I wish I could save a link to a Feedbin folder to my home screen on mobile. I use Reeder to read everything but Twitter, and the Feedbin website for Twitter only. I wish I could reach the tweets in one tap.
+
+extra
+
+it’s hard sometimes <https://news.ycombinator.com/item?id=30500810>
