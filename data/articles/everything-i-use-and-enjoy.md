@@ -36,7 +36,7 @@ Most if not all of my browsing starts in my browsing starts in my RSS feed reade
 
 - [Feedbin](/articles/feedbin) (web) with [Reeder](/articles/reeder) (iOS)
 
-I invite you to read my article, [All of my browsing starts in my feed reader](/articles/all-of-my-browsing-starts-in-my-feed-reader) to learn more on how I use these.
+I invite you to read my article, [All of my browsing starts in my feed reader [grow](/articles/grow)](/articles/all-of-my-browsing-starts-in-my-feed-reader-[grow]/articles/grow) to learn more on how I use these.
 
 - [Instapaper](/articles/instapaper) (web/iOS). Anything worth reading is saved to Instapaper.
 
